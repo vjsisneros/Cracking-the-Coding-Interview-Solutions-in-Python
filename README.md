@@ -1,6 +1,6 @@
 # Cracking the Coding Interview Solutions in Python
 
-Hello! This project contains solutions to the interview questions posed in "Cracking the Coding Interview" by Gayle McDowell. All solutions will be implement in Python 3.6*.
+Hello! This project contains solutions to the interview questions posed in "Cracking the Coding Interview" by Gayle McDowell. All solutions will be implement in ***Python 3.6****.
 
 
 ## The goal of this project is two-fold:
