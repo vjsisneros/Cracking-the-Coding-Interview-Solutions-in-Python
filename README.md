@@ -8,8 +8,7 @@ Hello! This project contains solutions to the interview questions posed in "Crac
 1. Interview preparation for myself. 
 2. Learning / collaboration resource for everyone else.
 
-*Some interview questions will included multiple solutions labeled with either the algorithmic approach or data structure used. 
-Also, if multiple solutions are given there will be corresponding .txt file explaing the complexity differences between the solutions.* 
+*Some interview questions will included multiple solutions labeled with either the algorithmic approach or data structure used.*
 
 Please let me know if you have any suggestions, notice any bugs or incorrect solutions. 
 
