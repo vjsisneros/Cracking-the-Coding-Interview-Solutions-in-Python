@@ -44,4 +44,8 @@ def twoSum(theArr, theSum):
 
     return pairNumsSum
 
-print(twoSum([3,5,2,-4,8,11], 7))
+def main():
+    print(twoSum([3,5,2,-4,8,11], 7))
+
+    
+main()
