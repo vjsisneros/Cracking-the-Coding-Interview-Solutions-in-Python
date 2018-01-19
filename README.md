@@ -2,7 +2,7 @@
 
 Hello! This project contains Python 3.6* implementations of the interview questions posed in "Cracking the Coding Interview" by Gayle McDowell. 
 
-The goal of this project is two fold:
+The GOAL of this project is two fold:
 
 1) Interview preparation for myself. 
 2) Learning / collaboration tool for everyone else.
