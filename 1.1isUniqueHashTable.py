@@ -9,10 +9,10 @@
 ##what exactly the problem is, what is given, and what is the expected format of the output. 
 
 ##Problem: Determine if a string has all unique characters. Thats is no characters are the same.
-##Input:
-##Output:
+##Input: A sting s
+##Output: Indicate if the string s given contains only unique characters.
 
-##Clarifying Questions:
+##Clarifying Questions I would ask:
 ##      Does case matter? For example, is Dad considered a unique world because D and d are not the same ASCII or Unicode value?
 ##      Should I just return a boolean indicating if a word is unique or not? If not, then what value should be output?
 
@@ -21,6 +21,7 @@
 def hasAllUnique(inStr):
     letMap =  {}
     inStr = inStr.lower()
+    print(sorted(inStr.split()))
     
     for char in inStr:
 
