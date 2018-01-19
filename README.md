@@ -15,4 +15,4 @@ Please let me know if you have any suggestions, notice any bugs or incorrect sol
 
 Good luck on preparing for your technical interview!
 
-### Vidal Python :smiley:
+### Vidal :smiley:
