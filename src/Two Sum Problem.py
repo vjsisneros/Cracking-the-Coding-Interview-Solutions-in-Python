@@ -1,5 +1,5 @@
 
-# Two Sum problem
+# Two Sum problem Solution
 
 '''
 The two sum problem is a common interview question, and it is a variation of the subset sum problem.
