@@ -16,7 +16,7 @@
 ##      Does case matter? For example, is Dad considered a unique world because D and d are not the same ASCII or Unicode value?
 ##      Should I just return a boolean indicating if a word is unique or not? If not, then what value should be output?
 
-Th
+
 
 def hasAllUnique(inStr):
     letMap =  {}
