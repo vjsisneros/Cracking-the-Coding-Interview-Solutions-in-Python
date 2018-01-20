@@ -24,28 +24,34 @@
 ##  With this optimization added we can see that our solution is O(1) constant time. The reason that it is constant time is that the solution's worse
 ## case is when the 26 unique letters. If any string is over that length the algorithm will short-ciruit itself and return false because of the pigeonhole priniciple.
 
-def hasAllUnique(inStr):
+def has_all_unique(in_Str):
 
     #check for "edge" cases
-    if(len(inStr) <= 1 or len(inStr) > 26):
+    if(len(in_Str) <= 1 or len(in_Str) > 26):
         return False
 
     #otherwise, process string
-    letMap =  {}
-    inStr = inStr.lower()
+    char_map =  {}
+    in_Str = in_Str.lower()
     
-    for char in inStr:
+    for char in in_Str:
 
-        if(char in letMap):
+        if(char in char_map):
             return False
 
         else:
-            letMap[char] = char
+            char_map[char] = char
 
     return True
 
 
 def main():
-    print(hasAllUnique("D"))
+
+    #test end cases and correct cases
+    print(has_all_unique(''))
+    print(has_all_unique("D"))
+    print(has_all_unique("abcdefghijklmnopqrstuvwxyz"))
+    print(has_all_unique("abcdefghijklmnopqrstuvwxyza"))
+    print(has_all_unique("no duplicates"))
     
 main()
